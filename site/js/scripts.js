@@ -34,7 +34,7 @@ $(function() {
 	
 /*Code postal et ville*/	
 $.ajax({
-	url:'../json/cities.json',/*url:'./json/cities.json',*/
+	url:'./json/cities.json',/*url:'../json/cities.json',*/
 	method: "GET",
 	dataType: "json",
 	success:function(monObjet) {
