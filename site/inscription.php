@@ -4,8 +4,8 @@ $prenom = $_POST["prenom"];
 $date = $_POST["datepicker"];
 $cp = $_POST["cp"];
 $ville = $_POST["ville"];
-$mail = $_POST["mail"];
-$mdp1 = $_POST["mdp"];
+$mail = $_POST["email"];
+$mdp = $_POST["mdp"];
 $mdp2 = $_POST["mdp2"];
 
 echo "<h1>Formulaire bien envoyé, voici vos données :</h1>";
