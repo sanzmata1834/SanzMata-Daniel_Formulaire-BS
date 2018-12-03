@@ -8,7 +8,7 @@ $email = $_POST["email"];
 $mdp = $_POST["mdp"];
 $mdp2 = $_POST["mdp2"];
 
-echo "<h1>Formulaire bien envoyé, voici vos données :</h1>";
+echo "<h2>Formulaire bien envoyé, voici vos données :</h2>";
 echo "<p>Votre nom : <b>".$nom."</b></p>";
 echo "<p>Votre prenom : <b>".$prenom."</b></p>";
 echo "<p>Votre date de naissance : <b>".$date."</b></p>";
