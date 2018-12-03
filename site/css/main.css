@@ -6367,7 +6367,7 @@ hr {
   margin-bottom: 35px;
   border: solid #A0D4FF 2px; }
 
-.form-group {
+.form-group, #contenu {
   border-radius: 30px;
   background-color: white; }
 
@@ -6422,8 +6422,11 @@ img {
 .btn-annuler {
   background: #E0F1FF; }
 
-h1 {
+h1, h2 {
   color: #A0D4FF; }
+
+h2 {
+  font-size: 2rem; }
 
 a {
   color: #A0D4FF; }
