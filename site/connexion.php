@@ -1,8 +1,8 @@
 <?php
+$email = $_POST["emailcon"];
+$mdp = $_POST["mdpcon"];
 
-$email = $_POST["email"];
-
-echo('Bravo, nous avons bien reçu vos données<br>');
-echo $email;
-
+echo "<h2>Bienvenue!</h2>";
+echo "<p>Votre e-mail : <b>".$email."</b></p>";
+echo "<p>Votre MDP : <b>".$mdp."</b></p>";
 ?>
