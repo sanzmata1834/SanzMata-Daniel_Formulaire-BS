@@ -23,12 +23,12 @@
 			<hr>
 			<form class="form-group col-12 p-4" id="form-inscription" data-validetta="required">
 				<h1 class="text-center col-12 mb-4">Inscription</h1>
-				<div><input class="mb-3 form-control" id="nom" placeholder="Votre nom" data-validetta="required"></div>
-				<div><input class="mb-3 form-control" id="prenom" placeholder="Votre prénom" data-validetta="required"></div>
-				<div><input class="mb-3 form-control" id="datepicker" placeholder="Votre date de naissance" data-validetta="required"></div>
-				<div><input class="mb-3 form-control" id="cp" placeholder="Votre code postal" data-validetta="required"></div>
-				<div><input class="mb-3 form-control" id="ville" placeholder="Votre ville" data-validetta="required"></div>	
-				<div><input class="mb-3 form-control" id="email" placeholder="Votre adresse e-mail" data-validetta="required,email"></div>
+				<div><input class="mb-3 form-control" id="nom" name="nom" placeholder="Votre nom" data-validetta="required"></div>
+				<div><input class="mb-3 form-control" id="prenom" name="prenom" placeholder="Votre prénom" data-validetta="required"></div>
+				<div><input class="mb-3 form-control" id="datepicker" name="datepicker" placeholder="Votre date de naissance" data-validetta="required"></div>
+				<div><input class="mb-3 form-control" id="cp" name="cp" placeholder="Votre code postal" data-validetta="required"></div>
+				<div><input class="mb-3 form-control" id="ville" name="ville" placeholder="Votre ville" data-validetta="required"></div>	
+				<div><input class="mb-3 form-control" id="email" name="email" placeholder="Votre adresse e-mail" data-validetta="required,email"></div>
 				<div><input class="mb-3 form-control" id="mdp" name="mdp" placeholder="Votre mot de passe" data-validetta="required,minLength[3]">	</div>
 				<div><input class="mb-3 form-control" id="mdp2" name="mdp2" placeholder="Confirmez votre mot de passe" data-validetta="required,equalTo[mdp]"></div>
 				<div class="form-check">
@@ -44,7 +44,7 @@
 	
 			<form class="form-group hidden p-4 col-12" id="form-connexion">
 				<h1 class="text-center col-12 mb-4">Connection</h1>
-				<div><input class="form-control mb-3" id="emailcon" placeholder="Votre adresse e-mail" data-validetta="required,email"></div>
+				<div><input class="form-control mb-3" id="emailcon" name="emailcon" placeholder="Votre adresse e-mail" data-validetta="required,email"></div>
 				<div><input class="form-control mb-3" id="mdpcon" name="mdpcon" placeholder="Votre mot de passe" data-validetta="required"></div>
 				<a class="form-check-label" href="mdpoublie.html">Mot de passe oublié?</a><br>
 				<button class="my-3 col-12 btn btn-primary" type="submit" id="submit-connexion">Se connecter</button>
